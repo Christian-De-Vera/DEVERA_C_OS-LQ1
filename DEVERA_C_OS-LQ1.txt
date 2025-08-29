@@ -1,0 +1,271 @@
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\zench>cd downloads
+
+C:\Users\zench\Downloads>mkdir DEVERA_C_OS-LQ1
+
+C:\Users\zench\Downloads>cd DEVERA_C_OS-LQ1
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1>mkdir src common installer cache user
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1>cd src
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\src>mkdir a\b\c\d\e\f\g
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\src>cd ..\common & mkdir h\i\j\k\m
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\common>cd ..\installer
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\installer>mkdir installer_folder
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\installer>cd ..\cache & mkdir a b c d e f g h i j k m n o p q r s t u v w x y z
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\cache>mkdir 1 2 3 4 5 6 7 8 9 10
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\cache>cd ..\user
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>mkdir user_jerico user_eliza user_juan
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>cd user_jerico & mkdir user_profile user_settings user_preferences
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico>cd ..\user_profile
+The system cannot find the path specified.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico>cd \user_profile
+The system cannot find the path specified.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico>cd user_profile
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile>mkdirjerico estabillo
+'mkdirjerico' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile>mkdir jerico estabillo
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile>cd ..\user_settings
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings>mkdir OSversion AppVersion
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings>cd ..\..
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>robocopy user_jerico user_eliza \s \e
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 9:41:37 pm
+   Source - C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\
+     Dest - C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_eliza\
+
+    Files :
+  Options : /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+ERROR : Invalid Parameter #3 : "\s"
+
+       Simple Usage :: ROBOCOPY source destination /MIR
+
+             source :: Source Directory (drive:\path or \\server\share\path).
+        destination :: Destination Dir  (drive:\path or \\server\share\path).
+               /MIR :: Mirror a complete directory tree.
+
+    For more usage information run ROBOCOPY /?
+
+
+****  /MIR can DELETE files as well as copy them !
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>robocopy user_jerico user_eliza /s /e
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 9:42:29 pm
+   Source : C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\
+     Dest : C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_eliza\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+                           0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_preferences\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\estabillo\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\jerico\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\OSversion\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         8         7         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 9:42:29 pm
+
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>robocopy user_jerico user_juan /s /e
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : Friday, 29 August 2025 9:42:51 pm
+   Source : C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\
+     Dest : C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_juan\
+
+    Files : *.*
+
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30
+
+------------------------------------------------------------------------------
+
+                           0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_preferences\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\estabillo\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_profile\jerico\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion\
+          New Dir          0    C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\OSversion\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         8         7         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, 29 August 2025 9:42:51 pm
+
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>cd user_eliza\usesr_profile
+The system cannot find the path specified.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>cd user_eliza\user_profile
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_eliza\user_profile>ren jerico Eliza
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_eliza\user_profile>ren estabillo Taylor
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_eliza\user_profile>cd ..\..\user_juan\user_profile
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_juan\user_profile>ren jerico Juan
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_juan\user_profile>ren estabillo Pablo
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_juan\user_profile>cd ..\..\user_jerico\user_settings\AppVersion
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion>mkdir sampleApp_v2 sampleApp_v3 sampleApp_V5
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion>move sampleApp_v3 ..\..\user_eliza\user_settings
+The system cannot find the path specified.
+        0 dir(s) moved.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion>move sampleApp_v3 ..\..\..\user_eliza\user_settings
+        1 dir(s) moved.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion>move sampleApp_V5 ..\..\..\user_juan\user_settings
+        1 dir(s) moved.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user\user_jerico\user_settings\AppVersion>cd ..\..\..
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1\user>move user_jerico\user_preferences ..\installer\mode & move user_eliza\user_preferences ..\installer\mode2 & move user_juan\user_preferences ..\installer\mode3
+        1 dir(s) moved.
+        1 dir(s) moved.
+        1 dir(s) moved.
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1>tree
+Folder PATH listing for volume Acer
+Volume serial number is 3EAC-69F5
+C:.
+├───cache
+│   ├───1
+│   ├───10
+│   ├───2
+│   ├───3
+│   ├───4
+│   ├───5
+│   ├───6
+│   ├───7
+│   ├───8
+│   ├───9
+│   ├───a
+│   ├───b
+│   ├───c
+│   ├───d
+│   ├───e
+│   ├───f
+│   ├───g
+│   ├───h
+│   ├───i
+│   ├───j
+│   ├───k
+│   ├───m
+│   ├───n
+│   ├───o
+│   ├───p
+│   ├───q
+│   ├───r
+│   ├───s
+│   ├───t
+│   ├───u
+│   ├───v
+│   ├───w
+│   ├───x
+│   ├───y
+│   └───z
+├───common
+│   └───h
+│       └───i
+│           └───j
+│               └───k
+│                   └───m
+├───installer
+│   ├───installer_folder
+│   ├───mode
+│   ├───mode2
+│   └───mode3
+├───src
+│   └───a
+│       └───b
+│           └───c
+│               └───d
+│                   └───e
+│                       └───f
+│                           └───g
+└───user
+    ├───user_eliza
+    │   ├───user_profile
+    │   │   ├───Eliza
+    │   │   └───Taylor
+    │   └───user_settings
+    │       ├───AppVersion
+    │       ├───OSversion
+    │       └───sampleApp_v3
+    ├───user_jerico
+    │   ├───user_profile
+    │   │   ├───estabillo
+    │   │   └───jerico
+    │   └───user_settings
+    │       ├───AppVersion
+    │       │   └───sampleApp_v2
+    │       └───OSversion
+    └───user_juan
+        ├───user_profile
+        │   ├───Juan
+        │   └───Pablo
+        └───user_settings
+            ├───AppVersion
+            ├───OSversion
+            └───sampleApp_V5
+
+C:\Users\zench\Downloads\DEVERA_C_OS-LQ1>
